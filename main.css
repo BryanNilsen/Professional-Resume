@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: lightgray;
+}
+
+.main_container {
+  border: 1px solid rgb(51, 255, 0);
+  width: 100%;
+}
+
+.main_header {
+  border: 1px solid rgb(4, 0, 255);
+  background: rgb(250, 250, 250);
+}
+
+.main_name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15vw;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -5%;
+  margin-bottom: -3.5%;
+}
+
+.header_stripe {
+  background: rgb(10, 10, 10);
+  padding: 1%;
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2vw;
+}
+
+.stripe_text {
+  margin: 0px;
+  padding: 0px;
+}
