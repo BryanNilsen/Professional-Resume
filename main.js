@@ -29,3 +29,18 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+// random facts
+var facts_array = [
+  "I can transcribe legal testimony at over 225 words per minute",
+  "Played basketball against several players who ended up in the NBA",
+  "I've eaten Pizza Hut in over 9 different countries"
+]
+
+const random_fact = () => {
+  let numberOfFacts = facts_array.length;
+
+}
+
+document.getElementById("random_fact").append(facts_array[1])

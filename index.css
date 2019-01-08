@@ -1,8 +1,12 @@
+:root {
+  --main-bg-color: rgb(51, 49, 50);
+}
+
 body {
   margin: 0px;
   padding: 0px;
   background: rgb(150, 150, 150);
-  color: rgb(51, 49, 50);
+  color: var(--main-bg-color);
 }
 
 .main_wrapper {
@@ -28,7 +32,7 @@ body {
 
 .header_stripe {
   text-align: left;
-  background: rgb(51, 49, 50);
+  background: var(--main-bg-color);
   margin: 0px;
   padding: 2px 5px;
   color: whitesmoke;
@@ -40,7 +44,7 @@ body {
   font-family: 'Rasa', serif;
   color: rgb(51, 49, 50);
   font-size: 1em;
-  border-bottom: 1px solid rgb(51, 49, 50);
+  border-bottom: 1px solid var(--main-bg-color);
   margin-top: 5px;
 }
 
@@ -65,7 +69,7 @@ body {
 }
 
 .main_nav li a {
-  color: rgb(51, 49, 50);
+  color: var(--main-bg-color);
   text-decoration: none;
 }
 
@@ -73,6 +77,23 @@ body {
   color: rgb(214, 31, 38);
 }
 
+
+/* info bar */
+
+.info_bar {
+  text-align: center;
+  background: rgb(92, 92, 92);
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+.info_bar h1 {
+  color: whitesmoke;
+  font-family: 'Rasa', serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-shadow: 0px 0px 10px rgb(51, 49, 50)
+}
 /* content */
 
 .content_wrapper {
@@ -80,7 +101,7 @@ body {
   border: 1px solid yellow;
 }
 
-.content_wrapper h1 {
+.category_container h1 {
   font-family: 'Rasa', serif;
   font-weight: bold;
   font-size: 2em;
@@ -91,14 +112,15 @@ body {
   font-family: 'Rasa', serif;
   font-weight: bold;
   font-size: 1.5em;
-  color: rgb(51, 49, 50);
+  color: var(--main-bg-color);
+  margin-bottom: 5px;
 }
 
 .content_wrapper h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 1.2em;
-  color: rgb(51, 49, 50);
+  color: var(--main-bg-color);
 }
 
 .content_wrapper p {
@@ -111,14 +133,15 @@ body {
   font-size: .9em;
 }
 
-/* .about_image {
-  min-width: 100px;
-  margin: 5px;
+.about_image {
+  padding-bottom: 0px;
+  margin-right: 10px;
+  border: 2px solid var(--main-bg-color);
+  background: black;
 }
 
 .about_copy {
-  min-width: 350px;
-} */
+}
 
 .flex {
   display: flex;
@@ -161,7 +184,7 @@ body {
 
 .footer {
   text-align: left;
-  background: rgb(51, 49, 50);
+  background: var(--main-bg-color);
   margin: 0px;
   padding: 10px 5px;
   color: whitesmoke;
